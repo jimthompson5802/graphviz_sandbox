@@ -1,0 +1,17 @@
+{
+  "name": "Ubuntu Development",
+  "dockerFile": "Dockerfile",
+  "build": {
+    "args": {},
+    "platform": "linux/amd64"
+  },
+  "forwardPorts": [3000],
+  "remoteUser": "root",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
